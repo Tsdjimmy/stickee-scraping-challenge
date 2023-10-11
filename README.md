@@ -56,3 +56,12 @@ composer install
 ```
 
 To run the scrape you can use `php src/Scrape.php`
+
+### This Solution does the following:
+* Web Scraping: The script uses web scraping techniques to extract information about smartphones from the target website.
+
+* De-duplication: To ensure that the same product is not included multiple times, the script keeps track of unique product titles and skips duplicates.
+
+* Color Variants: The script captures color variants of each product, treating them as separate items.
+
+* Capacity in MB : It converts the device's capacity from GB to MB for all products.
