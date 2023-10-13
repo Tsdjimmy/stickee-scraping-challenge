@@ -8,7 +8,7 @@
         "availabilityText": "Out of Stock",
         "isAvailable": false,
         "shippingText": "Out of Stock",
-        "shippingDate": "1970-01-01"
+        "shippingDate": ""
     },
     {
         "title": "iPhone 11",
@@ -19,7 +19,18 @@
         "availabilityText": "In Stock at B90 4SB",
         "isAvailable": true,
         "shippingText": "Unavailable for delivery",
-        "shippingDate": "1970-01-01"
+        "shippingDate": ""
+    },
+    {
+        "title": "iPhone 11",
+        "price": 699.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/smartphones\/images\/iphone-11.png",
+        "capacityMB": 64000,
+        "colour": "White",
+        "availabilityText": "In Stock at B90 4SB",
+        "isAvailable": true,
+        "shippingText": "Unavailable for delivery",
+        "shippingDate": ""
     },
     {
         "title": "iPhone 12 Pro Max",
@@ -29,8 +40,8 @@
         "colour": "Sky Blue",
         "availabilityText": "In Stock Online",
         "isAvailable": true,
-        "shippingText": "Delivery by 12 Oct 2023",
-        "shippingDate": "1970-01-01"
+        "shippingText": "Delivery by Saturday 14th Oct 2023",
+        "shippingDate": "2023-10-14"
     },
     {
         "title": "Samsung Galaxy S20",
@@ -40,8 +51,8 @@
         "colour": "Grey",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Available on 2023-10-18",
-        "shippingDate": "1970-01-01"
+        "shippingText": "Available on 2023-10-20",
+        "shippingDate": "2023-10-20"
     },
     {
         "title": "Huawei P30 Pro",
@@ -52,7 +63,7 @@
         "availabilityText": "In Stock",
         "isAvailable": true,
         "shippingText": "Free Shipping",
-        "shippingDate": "1970-01-01"
+        "shippingDate": ""
     },
     {
         "title": "Nokia 3310",
@@ -62,8 +73,41 @@
         "colour": "Orange",
         "availabilityText": "Out of Stock",
         "isAvailable": false,
-        "shippingText": "Delivery from 10 Nov 2023",
-        "shippingDate": "2023-11-10"
+        "shippingText": "Delivery from Sunday 12th Nov 2023",
+        "shippingDate": "2023-11-12"
+    },
+    {
+        "title": "Nokia 3310",
+        "price": 99.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/smartphones\/images\/nokia-3310.png",
+        "capacityMB": 100,
+        "colour": "Yellow",
+        "availabilityText": "Out of Stock",
+        "isAvailable": false,
+        "shippingText": "Delivery from Sunday 12th Nov 2023",
+        "shippingDate": "2023-11-12"
+    },
+    {
+        "title": "Nokia 3310",
+        "price": 99.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/smartphones\/images\/nokia-3310.png",
+        "capacityMB": 100,
+        "colour": "Grey",
+        "availabilityText": "Out of Stock",
+        "isAvailable": false,
+        "shippingText": "Delivery from Sunday 12th Nov 2023",
+        "shippingDate": "2023-11-12"
+    },
+    {
+        "title": "Nokia 3310",
+        "price": 99.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/smartphones\/images\/nokia-3310.png",
+        "capacityMB": 100,
+        "colour": "Blue",
+        "availabilityText": "Out of Stock",
+        "isAvailable": false,
+        "shippingText": "Delivery from Sunday 12th Nov 2023",
+        "shippingDate": "2023-11-12"
     },
     {
         "title": "Google Pixel 5",
@@ -73,8 +117,8 @@
         "colour": "Black",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Delivers 2023-10-11",
-        "shippingDate": "1970-01-01"
+        "shippingText": "Delivers Friday 13th Oct 2023",
+        "shippingDate": "2023-10-13"
     },
     {
         "title": "Sony Xperia 10",
@@ -85,7 +129,7 @@
         "availabilityText": "In Stock",
         "isAvailable": true,
         "shippingText": "Free Shipping",
-        "shippingDate": "1970-01-01"
+        "shippingDate": ""
     },
     {
         "title": "Samsung Galaxy Flip",
@@ -96,7 +140,18 @@
         "availabilityText": "Out of Stock",
         "isAvailable": false,
         "shippingText": "Out of Stock",
-        "shippingDate": "1970-01-01"
+        "shippingDate": ""
+    },
+    {
+        "title": "Samsung Galaxy S20",
+        "price": 849.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/smartphones\/images\/s-20.png",
+        "capacityMB": 128000,
+        "colour": "Black",
+        "availabilityText": "In Stock",
+        "isAvailable": true,
+        "shippingText": "Free Delivery Saturday 14th Oct 2023",
+        "shippingDate": "2023-10-14"
     },
     {
         "title": "Oppo Reno4 Pro 5G",
@@ -107,7 +162,7 @@
         "availabilityText": "In Stock",
         "isAvailable": true,
         "shippingText": "Free Delivery",
-        "shippingDate": "1970-01-01"
+        "shippingDate": ""
     },
     {
         "title": "Huawei P Smart",
@@ -118,7 +173,7 @@
         "availabilityText": "In Stock",
         "isAvailable": true,
         "shippingText": "Free Delivery tomorrow",
-        "shippingDate": "1970-01-01"
+        "shippingDate": ""
     },
     {
         "title": "Google Pixel 4",
@@ -128,8 +183,19 @@
         "colour": "Black",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Delivers Wednesday 11th Oct 2023",
-        "shippingDate": "1970-01-01"
+        "shippingText": "Delivers 13 Oct 2023",
+        "shippingDate": "2023-10-13"
+    },
+    {
+        "title": "Google Pixel 4",
+        "price": 499.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/smartphones\/images\/pixel-5.png",
+        "capacityMB": 64000,
+        "colour": "White",
+        "availabilityText": "In Stock",
+        "isAvailable": true,
+        "shippingText": "Delivers 13 Oct 2023",
+        "shippingDate": "2023-10-13"
     },
     {
         "title": "LG K42",
@@ -139,7 +205,18 @@
         "colour": "Black",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Order within 6 hours and have it 13 Oct 2023",
-        "shippingDate": "1970-01-01"
+        "shippingText": "Order within 6 hours and have it Sunday 15th Oct 2023",
+        "shippingDate": "2023-10-15"
+    },
+    {
+        "title": "Samsung Galaxy S20",
+        "price": 799.99,
+        "imageUrl": "https:\/\/www.magpiehq.com\/developer-challenge\/smartphones\/images\/s-20.png",
+        "capacityMB": 64000,
+        "colour": "Grey",
+        "availabilityText": "In Stock",
+        "isAvailable": true,
+        "shippingText": "Free Delivery Saturday 14th Oct 2023",
+        "shippingDate": "2023-10-14"
     }
 ]
