@@ -40,8 +40,8 @@
         "colour": "Sky Blue",
         "availabilityText": "In Stock Online",
         "isAvailable": true,
-        "shippingText": "Delivery by Saturday 14th Oct 2023",
-        "shippingDate": "2023-10-14"
+        "shippingText": "Delivery by 17 Oct 2023",
+        "shippingDate": "2023-10-17"
     },
     {
         "title": "Samsung Galaxy S20",
@@ -51,8 +51,8 @@
         "colour": "Grey",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Available on 2023-10-20",
-        "shippingDate": "2023-10-20"
+        "shippingText": "Available on 23 Oct 2023",
+        "shippingDate": "2023-10-23"
     },
     {
         "title": "Huawei P30 Pro",
@@ -73,8 +73,8 @@
         "colour": "Orange",
         "availabilityText": "Out of Stock",
         "isAvailable": false,
-        "shippingText": "Delivery from Sunday 12th Nov 2023",
-        "shippingDate": "2023-11-12"
+        "shippingText": "Delivery from 15 Nov 2023",
+        "shippingDate": "2023-11-15"
     },
     {
         "title": "Nokia 3310",
@@ -84,8 +84,8 @@
         "colour": "Yellow",
         "availabilityText": "Out of Stock",
         "isAvailable": false,
-        "shippingText": "Delivery from Sunday 12th Nov 2023",
-        "shippingDate": "2023-11-12"
+        "shippingText": "Delivery from 15 Nov 2023",
+        "shippingDate": "2023-11-15"
     },
     {
         "title": "Nokia 3310",
@@ -95,8 +95,8 @@
         "colour": "Grey",
         "availabilityText": "Out of Stock",
         "isAvailable": false,
-        "shippingText": "Delivery from Sunday 12th Nov 2023",
-        "shippingDate": "2023-11-12"
+        "shippingText": "Delivery from 15 Nov 2023",
+        "shippingDate": "2023-11-15"
     },
     {
         "title": "Nokia 3310",
@@ -106,8 +106,8 @@
         "colour": "Blue",
         "availabilityText": "Out of Stock",
         "isAvailable": false,
-        "shippingText": "Delivery from Sunday 12th Nov 2023",
-        "shippingDate": "2023-11-12"
+        "shippingText": "Delivery from 15 Nov 2023",
+        "shippingDate": "2023-11-15"
     },
     {
         "title": "Google Pixel 5",
@@ -117,8 +117,8 @@
         "colour": "Black",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Delivers Friday 13th Oct 2023",
-        "shippingDate": "2023-10-13"
+        "shippingText": "Delivers Monday 16th Oct 2023",
+        "shippingDate": "2023-10-16"
     },
     {
         "title": "Sony Xperia 10",
@@ -150,8 +150,8 @@
         "colour": "Black",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Free Delivery Saturday 14th Oct 2023",
-        "shippingDate": "2023-10-14"
+        "shippingText": "Free Delivery 2023-10-17",
+        "shippingDate": "2023-10-17"
     },
     {
         "title": "Oppo Reno4 Pro 5G",
@@ -183,8 +183,8 @@
         "colour": "Black",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Delivers 13 Oct 2023",
-        "shippingDate": "2023-10-13"
+        "shippingText": "Delivers 16 Oct 2023",
+        "shippingDate": "2023-10-16"
     },
     {
         "title": "Google Pixel 4",
@@ -194,8 +194,8 @@
         "colour": "White",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Delivers 13 Oct 2023",
-        "shippingDate": "2023-10-13"
+        "shippingText": "Delivers 16 Oct 2023",
+        "shippingDate": "2023-10-16"
     },
     {
         "title": "LG K42",
@@ -205,8 +205,8 @@
         "colour": "Black",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Order within 6 hours and have it Sunday 15th Oct 2023",
-        "shippingDate": "2023-10-15"
+        "shippingText": "Order within 6 hours and have it 18 Oct 2023",
+        "shippingDate": "2023-10-18"
     },
     {
         "title": "Samsung Galaxy S20",
@@ -216,7 +216,7 @@
         "colour": "Grey",
         "availabilityText": "In Stock",
         "isAvailable": true,
-        "shippingText": "Free Delivery Saturday 14th Oct 2023",
-        "shippingDate": "2023-10-14"
+        "shippingText": "Free Delivery 17 Oct 2023",
+        "shippingDate": "2023-10-17"
     }
 ]

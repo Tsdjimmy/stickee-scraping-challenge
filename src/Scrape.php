@@ -1,19 +1,15 @@
 <?php
 
+namespace App;
+
 use App\ScrapeHelper;
+use App\Product;
 
 require 'vendor/autoload.php';
 
 class Scrape
 {
     const BASE_URL = 'https://www.magpiehq.com/developer-challenge/smartphones';
-    const TITLE_SELECTOR = '.product-name';
-    const CAPACITY_SELECTOR = '.product-capacity';
-    const PRICE_SELECTOR = '.text-lg';
-    const AVAILABILITY_SELECTOR = '.text-sm.block.text-center';
-    const SHIPPING_SELECTOR = '.text-sm.block.text-center';
-    const IMAGE_SELECTOR = 'img';
-    const COLOUR_SELECTOR = '[data-colour]';
 
     public function run(): array
     {
@@ -21,6 +17,8 @@ class Scrape
         $products = [];
 
         $page = 1;
+
+        $productHelper = new Product();
 
         while (true) {
             $pageUrl = $url . '?page=' . $page;
@@ -33,38 +31,8 @@ class Scrape
 
             $crawler = $html;
 
-            $crawler->filter('.product')->each(function ($node) use (&$products, $url) {
-                $title = $node->filter(self::TITLE_SELECTOR)->text();
-                $capacity = $node->filter(self::CAPACITY_SELECTOR)->text();
-                $priceText = $node->filter(self::PRICE_SELECTOR)->text();
-                $price = (float) str_replace(['£', '£'], '', $priceText);
-                $availabilityText = $node->filter(self::AVAILABILITY_SELECTOR)->first()->text();
-                $availabilityText = trim(str_replace('Availability:', '', $availabilityText));
-                $shippingText = $node->filter(self::SHIPPING_SELECTOR)->last()->text();
-                $shippingText = trim(str_replace('Availability:', '', $shippingText));
-                $imageUrl = $node->filter(self::IMAGE_SELECTOR)->attr('src');
-                $imageUrl = str_replace('..', '', $imageUrl);
-                $imageUrl = $url . '/' . ltrim($imageUrl, '/');
-                $isAvailable = stripos($availabilityText, 'in stock') !== false;
-                $shippingDate = date('Y-m-d', strtotime(str_replace('Delivery from ', '', $shippingText)));
-
-                // Fetch color variants
-                $colorVariants = $node->filter(self::COLOUR_SELECTOR);
-                $colors = $colorVariants->each(function ($colorNode) use ($title, $capacity, $price, $availabilityText, $shippingText, $imageUrl, $isAvailable, $shippingDate) {
-                    $colour = $colorNode->attr('data-colour');
-                    $product = [
-                        'title' => $title,
-                        'price' => $price,
-                        'imageUrl' => $imageUrl,
-                        'capacityMB' => $this->convertCapacityToMB($capacity),
-                        'colour' => $colour,
-                        'availabilityText' => $availabilityText,
-                        'isAvailable' => $isAvailable,
-                        'shippingText' => $shippingText,
-                        'shippingDate' => $shippingDate,
-                    ];
-                    return $product;
-                });
+            $crawler->filter('.product')->each(function ($node) use (&$products, $url, $productHelper) {
+                $colors = $productHelper->extractProductData($node);
 
                 // Deduplicates products based on title, color, and capacity
                 foreach ($colors as $colorProduct) {
@@ -111,22 +79,7 @@ class Scrape
             $product['shippingDate'] = $shippingDate;
         }
 
-
-
         return $products;
-    }
-
-    private function convertCapacityToMB($capacity): int
-    {
-        $unit = strtoupper(substr($capacity, -2));
-        $value = (int) trim($capacity);
-        if ($unit === 'GB') {
-            return $value * 1000;
-        } elseif ($unit === 'MB') {
-            return $value;
-        }
-
-        return 0; // Set default to 0 if capacity cannot be determined
     }
 }
 
